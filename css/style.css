@@ -1,0 +1,78 @@
+/* header{
+  background-color: LightSeaGreen;
+  color: Gold;
+  font-size:50px
+}
+body{
+  background-color: LightSeaGreen;
+  color: Gold;
+  font-size:30px
+}
+p{
+  color: Gold;
+  font-size:30px
+}*/
+
+
+body{background-image: url(https://img1.akspic.ru/originals/5/3/3/2/5/152335-macbook-macbook_pro-apple-macos_catalina-yabloko-3840x2160.jpg);}
+li{
+  display: inline-block;
+  padding: 20px 20px;
+}
+p{
+font-size:20px;
+color: PaleGreen;
+}
+h2, h3, h4, h5, h6{
+font-size:30px;
+color: Gray;
+}
+a{
+  background-color:LightSteelBlue;
+  border:2px solid LightSteelBlue;
+  border-radius: 5px;
+  font-size:25px;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+  font-style: arial;
+
+}
+header{
+  color: Gray;
+}
+main{
+  color: DarkRed
+}
+footer{
+  color: white
+}
+a:hover{
+  background-color:SteelBlue;
+  border:2px solid SteelBlue;
+  border-radius: 5px;
+  font-size:30px;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+}
+.posts{
+  background-color:none;
+  border:2px ;
+  border-radius: 5px;
+  font-size:16px;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: black;
+}
+.button{
+  background-color:red;
+  border:2px ;
+  border-radius: 5px;
+  font-size:12px;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  margin: 5px 150px;
+}
