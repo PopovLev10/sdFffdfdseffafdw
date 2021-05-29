@@ -15,9 +15,8 @@ p{
 
 
 body{background-image: url(https://img1.akspic.ru/originals/5/3/3/2/5/152335-macbook-macbook_pro-apple-macos_catalina-yabloko-3840x2160.jpg);}
-li{
-  display: inline-block;
-  padding: 20px 20px;
+ li{
+  float: left;
 }
 p{
 font-size:20px;
@@ -27,7 +26,7 @@ h2, h3, h4, h5, h6{
 font-size:30px;
 color: Gray;
 }
-a{
+/* a{
   background-color:LightSteelBlue;
   border:2px solid LightSteelBlue;
   border-radius: 5px;
@@ -37,7 +36,7 @@ a{
   color: white;
   font-style: arial;
 
-}
+} */
 header{
   color: Gray;
 }
@@ -47,7 +46,7 @@ main{
 footer{
   color: white
 }
-a:hover{
+/* a:hover{
   background-color:SteelBlue;
   border:2px solid SteelBlue;
   border-radius: 5px;
@@ -55,7 +54,7 @@ a:hover{
   padding: 5px 5px;
   text-decoration: none;
   color: white;
-}
+} */
 .posts{
   background-color:none;
   border:2px ;
@@ -75,4 +74,70 @@ a:hover{
   color: white;
   width: 100px;
   margin: 5px 150px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1B2536;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #7DABF5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img{
+  max-width: 160px;
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+
+}
+.sale < p{
+  float: left;
+}
+.sale{
+  border: solid 1px;
+  max-width: 200px;
+  width: 100%;
 }
